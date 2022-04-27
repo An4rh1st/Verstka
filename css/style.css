@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+}
+
+a:hover {
+    color: rgb(92, 216, 247);
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    float: left;
+    padding: 1%;
+    width: 98%;
+    background-color: rgb(39, 39, 39);
+    color: rgb(238, 238, 238);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    min-height: auto;
+}
+
+header>span {
+    float: right;
+    padding: 5px;
+    margin: 5px;
+}
+
+header>span>a {
+    margin: 5px;
+}
+
+header>a {
+    float: left;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(238, 238, 238);
+
+}
+
+/* .wrapper {
+    margin: 0 15px;
+} */
+
+/* aside,*/ main { 
+    margin: 10px 15px;
+    background-color: rgb(219, 216, 216);
+    word-wrap: break-word;
+}
+
+nav {
+    background-color: rgb(219, 216, 216);
+    width: 100%;
+    float: left;
+    text-align: center
+}
+nav>ul {
+    padding: 10px;
+}
+
+nav>ul>li {
+    display: inline;
+}
+
+nav>ul>li>a {
+    padding: 0 5px;
+    color: black;
+}
+
+main {
+    float: left;
+}
+
+footer {
+    margin-top: auto;
+    min-height: auto;
+}
+
+footer>ul {
+    float: left;
+}
+
+footer>p{
+    float: right;
+    line-height: auto;
+}
